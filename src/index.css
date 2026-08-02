@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background: steelblue;
+  color: white;
+  padding: 20px;
+}
+
+aside {
+  text-align: center;
+  margin: 20px 0;
+}
+
+aside img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+main {
+  display: grid;
+  gap: 20px;
+}
+
+article {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+small {
+  color: gray;
+}
