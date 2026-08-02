@@ -1,8 +1,8 @@
 // Article Component
-// Displays a single blog article with fallback date.
+// Displays one blog article.
 // Connected to: ArticleList
 
-function Article({ title, date = "January 1, 1970", preview }) {
+function Article({ title, date, preview }) {
   return (
     <article>
       <h3>{title}</h3>

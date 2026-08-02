@@ -1,8 +1,8 @@
 // About Component
-// Displays the blog logo image and description sidebar.
+// Displays the blog image and description.
 // Connected to: App
 
-function About({ image = "https://via.placeholder.com/215", about }) {
+function About({ image, about }) {
   return (
     <aside>
       <img src={image} alt="blog logo" />
