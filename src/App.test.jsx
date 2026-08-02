@@ -1,7 +1,11 @@
-import { render, screen } from "@testing-library/react";
-import App from "./App";
-
-test("renders the blog title", () => {
+test("renders blog articles", () => {
   render(<App />);
-  expect(screen.getByText("Code Chronicles")).toBeInTheDocument();
+
+  expect(
+    screen.getByText("Learning React")
+  ).toBeInTheDocument();
+
+  expect(
+    screen.getByText("Why I Love JavaScript")
+  ).toBeInTheDocument();
 });
